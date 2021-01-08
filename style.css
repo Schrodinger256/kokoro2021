@@ -6,11 +6,11 @@
 
 @font-face{     /* フォントの設定 */
     font-family: "myfont";  /* 適当な名前 */
-    src: url("../fonts/odstemplik/odstemplik.otf") format("opentype"),url("../fonts/odstemplik/odstemplikBold.otf") format("opentype");
+    src: url("odstemplik.otf") format("opentype"),url("odstemplikBold.otf") format("opentype");
 }           /* 2種類のフォントを"myfont"の名前で使用可能 */
 
 .top-img{
-    background-image: url("../imgs/img01.jpg"); /* 背景画像 */
+    background-image: url("img01.jpg"); /* 背景画像 */
     background-size: cover;     /* 背景画像のサイズ */
     background-attachment: fixed;   /* 背景画像の固定 */
 }
@@ -35,7 +35,7 @@ nav .fas, nav .far{ /* 各アイコンクラスの設定 */
 }
 
 .night{
-    background-image: url("../imgs/fix-bg.jpg");
+    background-image: url("fix-bg.jpg");
     padding: 200px 0;
     text-align: center;
     background-attachment: fixed;   /* 背景画像の固定 */

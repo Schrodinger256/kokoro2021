@@ -1,0 +1,113 @@
+*{      /* 全体の指定 */
+    margin: 0;  /* 外側余白 */
+    padding: 0; /* 内側余白 */
+    color: white;   /* 白に統一 */
+}
+
+@font-face{     /* フォントの設定 */
+    font-family: "myfont";  /* 適当な名前 */
+    src: url("../fonts/odstemplik/odstemplik.otf") format("opentype"),url("../fonts/odstemplik/odstemplikBold.otf") format("opentype");
+}           /* 2種類のフォントを"myfont"の名前で使用可能 */
+
+.top-img{
+    background-image: url("../imgs/img01.jpg"); /* 背景画像 */
+    background-size: cover;     /* 背景画像のサイズ */
+    background-attachment: fixed;   /* 背景画像の固定 */
+}
+
+.top-text{
+    text-align: center; /* テキストを中央揃え */
+    padding: 250px 0;   /* 上下250px 左右0px */
+}
+
+.top-text h1{
+    font-size: 100px;   /*  */
+    font-family: "myfont";  /* フォントを適用 */
+}
+
+.navbar-brand h3{   /*  */
+    color: black;   /* 色を黒に指定 */
+    font-family: "myfont";  /* フォントを適用 */
+}
+
+nav .fas, nav .far{ /* 各アイコンクラスの設定 */
+    color: #888;    /* 色を適用(グレー？) */
+}
+
+.night{
+    background-image: url("../imgs/fix-bg.jpg");
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;   /* 背景画像の固定 */
+}
+.night h2{
+    font-family: "myfont";
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.service-list{
+    background-color: #333; /* チャコールグレー */
+    padding: 50px;
+}
+
+.service-list h2{
+    text-align: center;
+    font-family: "myfont";
+    font-size: 80px;
+}
+
+.service-img{
+    width: 100%;
+}
+
+.service-description{
+    padding: 20px;
+}
+
+.info{
+    border: solid 2px white;    /* 白い枠線 */
+    margin: 20px;
+    padding: 20px;
+}
+
+.icon{
+    font-size: 100px;
+}
+
+.icon a{
+    color: #fff;    /* デフォルトで青が付いているのでグレーに変更 */
+}
+
+.icon a:hover{   /* hover = マウスを合わせた時のデザイン */
+    color: #fff;    /* 白に指定 */
+    text-decoration: none;  /* 下線の削除 */
+}
+
+footer{
+    background-color: #333; /* チャコールグレー */
+    padding: 30px;
+}
+
+footer p{
+    text-align: right;  /* 右寄せ */
+}
+
+footer ul li{
+    list-style: none;   /* [・]を削除 */
+}
+
+footer ul li a{
+    color: #aaa;    /* デフォルトで青が付いているのでグレーに変更 */
+    font-size: 15px;
+}
+
+footer ul li a:hover{   /* hover = マウスを合わせた時のデザイン */
+    color: #fff;    /* 白に指定 */
+    text-decoration: none;  /* 下線の削除 */
+}
+
